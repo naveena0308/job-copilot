@@ -97,10 +97,23 @@
     "recipient_email": "Portal: jobs.siemens.com",
     "ats_score": 94.0,
     "tailored_resume_path": "generated_resumes/Naveena_Resume_Siemens_Technology_Generative_AI_Engineer.pdf",
-    "status": "Ready to Apply (Portal / Referral)",
-    "notes": "Tailored ATS resume & cover letter generated. High fit for LangGraph, RAG, and FastAPI.",
+    "status": "Archived (Seniority Mismatch: Senior Only)",
+    "notes": "Role requires senior level experience (5+ yrs); filtered out.",
     "url": "https://jobs.siemens.com",
     "created_at": "2026-11-20 16:43:02",
     "last_updated": "2026-11-20 16:43:02"
+  },
+  {
+    "id": 9,
+    "company": "Oxydata Software",
+    "role": "Gen AI Engineer (CHE)",
+    "recipient_email": "Portal: oxy.careers-page.com",
+    "ats_score": 96.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Oxydata_Software_Gen_AI_Engineer.pdf",
+    "status": "Ready to Apply (Direct 1-Page Form)",
+    "notes": "1-3 yrs experience requirement. Exact match for LangChain, LlamaIndex, pgvector, RAG, and FastAPI.",
+    "url": "https://oxy.careers-page.com/jobs/9426b47b-8246-40a9-96ac-115db642ccad/apply",
+    "created_at": "2026-11-20 16:50:09",
+    "last_updated": "2026-11-20 16:50:09"
   }
 ]
