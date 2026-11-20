@@ -149,8 +149,8 @@
   "default_screening_answers": {
     "notice_period": "90 days (negotiable)",
     "current_location": "Bangalore, India",
-    "preferred_location": "Chennai (Primary), open to Bangalore",
-    "willing_to_relocate": "Yes (Primarily Chennai, also open to Bangalore)",
+    "preferred_location": "Chennai, Bangalore",
+    "willing_to_relocate": "Yes",
     "work_authorization": "Authorized to work in India (Citizen)",
     "preferred_work_mode": "Hybrid / Remote / On-site"
   }

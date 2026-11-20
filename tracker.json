@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": 1,
+    "company": "Saasly",
+    "role": "Gen AI Developer",
+    "recipient_email": "people@saasly.in",
+    "ats_score": 72.3,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Saasly_Gen_AI_Developer.pdf",
+    "status": "Emailed",
+    "notes": "Applied via LinkedIn post with tailored resume for Chennai on-site role.",
+    "url": "https://lnkd.in/p/ghA7cTJB",
+    "created_at": "2026-11-20 15:23:04",
+    "last_updated": "2026-11-20 15:23:04"
+  }
+]
