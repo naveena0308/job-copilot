@@ -420,6 +420,36 @@ with tabs[3]:
         cover_text = generate_cover_letter(outreach_comp, outreach_role)
         st.text_area("Tailored Cover Letter", value=cover_text, height=280)
 
+    # 1-Click Chrome Auto-Connect Bookmarklet section
+    with st.expander("🚀 1-Click Chrome Auto-Connect Bookmarklet (Instant Auto-Filler)", expanded=False):
+        st.markdown(
+            "Drag this button to your Chrome bookmarks bar (press `Ctrl+Shift+B` to show bookmarks). "
+            "Whenever you are on an Oxydata or company employee profile, simply click the bookmark to auto-fill the connection note with their first name!"
+        )
+        bml_code = (
+            "javascript:(function(){try{var h1=document.querySelector('h1.text-heading-xlarge')||document.querySelector('h1');"
+            "var fn=h1?h1.innerText.trim().split(' ')[0]:'there';"
+            f"var note='Hi '+fn+'! Saw the {outreach_role} opening at {outreach_comp}. I am an AI Engineer with 1.5y exp shipping RAG & LLM systems at MResult Tech & studying BS Data Science at IIT Madras. Would love to connect!';"
+            "if(note.length>298){note=note.substring(0,298);}"
+            "function setV(el,v){var vs=Object.getOwnPropertyDescriptor(el,'value').set;var proto=Object.getPrototypeOf(el);"
+            "var pvs=Object.getOwnPropertyDescriptor(proto,'value').set;if(pvs&&vs!==pvs){pvs.call(el,v);}else{vs.call(el,v);}"
+            "el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));}"
+            "function findC(){var btns=Array.from(document.querySelectorAll('button'));for(var b of btns){"
+            "var t=(b.innerText||'').trim();var a=(b.getAttribute('aria-label')||'').toLowerCase();"
+            "if((t==='Connect'||a.includes('invite')&&a.includes('to connect'))&&b.offsetParent!==null){return b;}}return null;}"
+            "function clkM(cb){var m=document.querySelector('button[aria-label=\\'More actions\\']')||Array.from(document.querySelectorAll('button')).find(function(b){return(b.innerText||'').trim()==='More';});"
+            "if(m){m.click();setTimeout(function(){var its=Array.from(document.querySelectorAll('div[role=\\'button\\'], div[role=\\'menuitem\\'], span.display-flex'));"
+            "for(var it of its){if(it.innerText.includes('Connect')||it.innerText.includes('Invite')){it.click();if(cb)setTimeout(cb,500);return;}}"
+            "alert('Connect option not found in dropdown.');},400);}else{alert('Connect button not found.');}}"
+            "function hMod(){setTimeout(function(){var ab=Array.from(document.querySelectorAll('button')).find(function(b){return(b.innerText||'').toLowerCase().includes('add a note');});"
+            "if(ab){ab.click();setTimeout(function(){var ta=document.querySelector('textarea[name=\\'message\\']')||document.querySelector('textarea');"
+            "if(ta){setV(ta,note);ta.focus();}else{alert('Note dialog open; paste manually.');}},400);}"
+            "else{var ta=document.querySelector('textarea[name=\\'message\\']')||document.querySelector('textarea');if(ta){setV(ta,note);ta.focus();}}},500);}"
+            "var cb=findC();if(cb){cb.click();hMod();}else{clkM(hMod);}}catch(e){alert('Error: '+e.message);}})();"
+        )
+        st.markdown(f'<a href="{bml_code}" style="display:inline-block;background:#0a66c2;color:#fff;padding:10px 20px;border-radius:20px;font-weight:bold;text-decoration:none;">⚡ LinkedIn Auto-Connect ({outreach_comp})</a>', unsafe_allow_html=True)
+        st.caption("Or open `bookmarklet.html` in your browser to drag and drop.")
+
 # ================= TAB 5: SCREENING Q&A =================
 with tabs[4]:
     st.header("📝 LinkedIn Easy Apply Screening Auto-Filler")
