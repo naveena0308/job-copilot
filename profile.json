@@ -143,7 +143,7 @@
     }
   ],
   "default_screening_answers": {
-    "notice_period": "30 days (negotiable)",
+    "notice_period": "90 days (negotiable)",
     "current_location": "Bangalore, India",
     "willing_to_relocate": "Yes",
     "work_authorization": "Authorized to work in India (Citizen)",

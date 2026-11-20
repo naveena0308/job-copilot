@@ -14,7 +14,7 @@ An intelligent, end-to-end automation copilot built for **Naveena N** (AI/ML & G
 
 ### 1. Launch the Interactive Web Dashboard (Streamlit)
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
 
