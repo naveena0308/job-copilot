@@ -2,7 +2,11 @@
   "name": "Naveena N",
   "email": "navirajan2003@gmail.com",
   "phone": "+91 6379595692",
-  "location": "Bangalore, Karnataka, India",
+  "location": "Chennai / Bangalore, India",
+  "preferred_locations": [
+    "Chennai (Primary)",
+    "Bangalore"
+  ],
   "linkedin": "https://linkedin.com",
   "github": "https://github.com",
   "portfolio": "",
@@ -145,7 +149,8 @@
   "default_screening_answers": {
     "notice_period": "90 days (negotiable)",
     "current_location": "Bangalore, India",
-    "willing_to_relocate": "Yes",
+    "preferred_location": "Chennai (Primary), open to Bangalore",
+    "willing_to_relocate": "Yes (Primarily Chennai, also open to Bangalore)",
     "work_authorization": "Authorized to work in India (Citizen)",
     "preferred_work_mode": "Hybrid / Remote / On-site"
   }

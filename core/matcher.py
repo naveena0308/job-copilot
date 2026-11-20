@@ -106,6 +106,21 @@ def match_job(job_text: str, profile: Dict[str, Any]) -> Dict[str, Any]:
             matched_target_role = r.title()
             break
 
+    # Location fit check
+    preferred_locs = ["chennai", "bangalore", "bengaluru", "remote", "hybrid"]
+    is_chennai = "chennai" in text_lower
+    is_bangalore = "bangalore" in text_lower or "bengaluru" in text_lower
+    is_remote = "remote" in text_lower or "hybrid" in text_lower
+
+    if is_chennai:
+        location_status = "Direct Match (Chennai - Primary Preference)"
+    elif is_bangalore:
+        location_status = "Match (Bangalore - Secondary Preference)"
+    elif is_remote:
+        location_status = "Match (Remote / Hybrid)"
+    else:
+        location_status = "Location not explicitly specified or outside primary preference"
+
     # Calculate overall ATS Score (0 - 100)
     w_skills = SCORING_WEIGHTS["required_skills"]
     w_exp = SCORING_WEIGHTS["experience_fit"]
@@ -153,6 +168,7 @@ def match_job(job_text: str, profile: Dict[str, Any]) -> Dict[str, Any]:
             "matched_role": matched_target_role,
             "score": role_score,
         },
+        "location_fit": location_status,
         "tailoring_needed": tailoring_needed,
         "tailoring_reasons": reasons,
     }

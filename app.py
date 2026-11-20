@@ -204,7 +204,7 @@ with tabs[1]:
         with col_m4:
             st.metric("Experience Check", f"{profile.get('experience_years', 1.5)} yrs")
 
-        st.info(f"**Experience Fit:** {match_result['experience_fit']['status']}")
+        st.info(f"**Experience Fit:** {match_result['experience_fit']['status']} &nbsp;|&nbsp; **Location Alignment:** {match_result.get('location_fit', 'N/A')}")
 
         # Skills breakdown
         col_sk1, col_sk2 = st.columns(2)

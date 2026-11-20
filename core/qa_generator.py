@@ -51,11 +51,11 @@ def answer_screening_question(question: str, profile: Dict[str, Any]) -> Dict[st
 
     # 2. Notice period
     if any(k in q_lower for k in ["notice period", "how soon can you join", "start date", "availability"]):
-        ans = default_answers.get("notice_period", "30 days (negotiable)")
+        ans = default_answers.get("notice_period", "90 days (negotiable)")
         return {
             "question": question,
             "answer": ans,
-            "explanation": "From profile default screening answers."
+            "explanation": "Standard 90 days notice period, open to early buyout / negotiation."
         }
 
     # 3. Work Authorization / Visa Sponsorship
@@ -76,20 +76,20 @@ def answer_screening_question(question: str, profile: Dict[str, Any]) -> Dict[st
     if any(k in q_lower for k in ["willing to relocate", "relocation"]):
         return {
             "question": question,
-            "answer": default_answers.get("willing_to_relocate", "Yes"),
-            "explanation": "Open to relocation for strong opportunities."
+            "answer": default_answers.get("willing_to_relocate", "Yes (Primarily Chennai, also open to Bangalore)"),
+            "explanation": "Primarily seeking roles in Chennai; fully open to Bangalore as well."
         }
-    if any(k in q_lower for k in ["current location", "where are you located", "city"]):
+    if any(k in q_lower for k in ["current location", "where are you located", "city", "location preference", "preferred location"]):
         return {
             "question": question,
-            "answer": default_answers.get("current_location", "Bangalore, India"),
-            "explanation": "Currently residing in Bangalore, Karnataka, India."
+            "answer": default_answers.get("preferred_location", "Chennai (Primary), open to Bangalore"),
+            "explanation": "Currently based in Bangalore; seeking opportunities primarily in Chennai, open to Bangalore."
         }
     if any(k in q_lower for k in ["hybrid", "remote", "on-site", "work mode", "in-office"]):
         return {
             "question": question,
             "answer": "Yes",
-            "explanation": "Comfortable with Hybrid, Remote, or On-site arrangements in Bangalore."
+            "explanation": "Comfortable with Hybrid, Remote, or On-site arrangements in Chennai or Bangalore."
         }
 
     # 5. Education

@@ -37,11 +37,12 @@ DEFAULT_TARGET_ROLES = [
 ]
 
 DEFAULT_LOCATIONS = [
+    "Chennai",
     "Bangalore",
     "Bengaluru",
     "Remote",
-    "India",
     "Hybrid",
+    "India",
 ]
 
 # Skills Taxonomy for Keyword Extraction and Categorization
