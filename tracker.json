@@ -128,5 +128,31 @@
     "url": "https://lnkd.in/p/g28i7V4X",
     "created_at": "2026-11-20 17:37:19",
     "last_updated": "2026-11-20 17:37:19"
+  },
+  {
+    "id": 11,
+    "company": "Adroit Innovative",
+    "role": "GenAI / Agentic AI Engineer",
+    "recipient_email": "suryakiran@adroitinnovative.com",
+    "ats_score": 99.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Adroit_Innovative_GenAI_and_Agentic_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to Surya Kiran LinkedIn post for GenAI & Agentic AI Engineer (LangGraph, MCP, RAG, pgvector).",
+    "url": "https://lnkd.in/p/gf5GpPk2",
+    "created_at": "2026-11-20 17:40:54",
+    "last_updated": "2026-11-20 17:40:54"
+  },
+  {
+    "id": 12,
+    "company": "Dxora Technologies",
+    "role": "AI Engineer (Fresher / 2025 Batch)",
+    "recipient_email": "chirag@dxora.com",
+    "ats_score": 94.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Dxora_Technologies_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to VijayaSaradhi Peddinti LinkedIn post for AI Engineer (AI, LLMs, AI Agents).",
+    "url": "https://lnkd.in/p/gYNh5yPr",
+    "created_at": "2026-11-20 17:40:58",
+    "last_updated": "2026-11-20 17:40:58"
   }
 ]
