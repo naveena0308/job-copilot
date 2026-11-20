@@ -1,0 +1,152 @@
+{
+  "name": "Naveena N",
+  "email": "navirajan2003@gmail.com",
+  "phone": "+91 6379595692",
+  "location": "Bangalore, Karnataka, India",
+  "linkedin": "https://linkedin.com",
+  "github": "https://github.com",
+  "portfolio": "",
+  "objective": "AI/ML Engineer with experience building end-to-end ML pipelines, LLM-powered RAG applications, and multi-agent systems in Python. Focused on shipping production-ready AI with MLOps best practices, from document intelligence to agentic workflows.",
+  "target_roles": [
+    "AI/ML Engineer",
+    "Generative AI Engineer",
+    "LLM / Agentic AI Engineer",
+    "Data Scientist",
+    "MLOps Engineer"
+  ],
+  "experience_years": 1.5,
+  "current_role": "Associate (Data Science) at MResult Technologies",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Data Science and its Applications (Distance Learning)",
+      "institution": "Indian Institute of Technology - Madras, Chennai, Tamilnadu",
+      "period": "2024 - Present"
+    },
+    {
+      "degree": "Bachelor of Technology in Artificial Intelligence and Data Science",
+      "institution": "Jeppiaar Institute of Technology, Kanchipuram, Tamilnadu",
+      "period": "2021 - 2025"
+    }
+  ],
+  "skills": {
+    "programming_and_ml": [
+      "Python",
+      "SQL",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "PyTorch",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "generative_ai_and_agents": [
+      "LangGraph",
+      "LangChain",
+      "LlamaIndex",
+      "AutoGen",
+      "RAG",
+      "MCP (Model Context Protocol)",
+      "ReAct"
+    ],
+    "databases_and_vector": [
+      "PostgreSQL",
+      "pgvector",
+      "ChromaDB",
+      "Snowflake"
+    ],
+    "mlops_and_fine_tuning": [
+      "MLflow",
+      "Docker",
+      "CI/CD",
+      "LoRA",
+      "QLoRA"
+    ],
+    "computer_vision": [
+      "YOLO",
+      "OpenCV",
+      "EfficientNet"
+    ],
+    "backend_and_cloud": [
+      "FastAPI",
+      "Next.js",
+      "AWS (S3, EC2)",
+      "GCP (Vertex AI)",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Associate (Data Science)",
+      "company": "MResult Technologies",
+      "location": "Bangalore",
+      "period": "Jan 2026 - Present",
+      "highlights": [
+        "Developed GnA Intelligence Engine, an agentic AI finance and analytics platform using ReAct and LlamaIndex for autonomous reasoning and tool orchestration; deployed on AWS EC2 via FastAPI.",
+        "Built a live AI avatar with Google Cloud Vertex AI for a logistics application, acting as an interactive product guide that demos the full application and answers questions on any of its features in real time.",
+        "Built ML-powered document intelligence pipelines for document classification and structured information extraction, integrating FastAPI with Snowflake; optimized model accuracy and inference latency through iterative hyperparameter tuning.",
+        "Contributed to internal CI/CD workflows and MLflow-based experiment tracking, leveraging AWS S3 presigned URLs for secure artifact storage and ensuring reproducible ML deployments."
+      ]
+    },
+    {
+      "role": "Trainee (Data Science)",
+      "company": "MResult Technologies",
+      "location": "Bangalore",
+      "period": "Jul 2025 - Dec 2025",
+      "highlights": [
+        "Authored an internal research white paper on VoxAPI, a secure gateway over third-party LLM providers, benchmarking the impact of hyperparameters on output quality using BLEU, ROUGE, and BERTScore.",
+        "Built multimodal CV workflows for document analysis across text, tables, and images, reducing manual effort by around 95%."
+      ]
+    },
+    {
+      "role": "Data Science Intern",
+      "company": "MResult Technologies",
+      "location": "Bangalore",
+      "period": "Feb 2025 - Apr 2025",
+      "highlights": [
+        "Built a NumPy/Pandas data pipeline for ingestion, cleaning, and transformation of enterprise datasets, and engineered a multi-agent AI system with AutoGen and ChromaDB that auto-summarizes data into structured insights, reducing manual effort by 40%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "FinSight AI - Agentic Financial Budget Analyst",
+      "period": "Jun 2026 - Present",
+      "tech_stack": [
+        "Next.js 14",
+        "FastAPI",
+        "LangGraph",
+        "Neon Postgres",
+        "pgvector",
+        "MCP"
+      ],
+      "highlights": [
+        "Architected a multi-agent RAG workflow in LangGraph that plans queries, routes between SQL lookups and pgvector similarity search, and verifies numeric answers against ground-truth tables to curb hallucinations.",
+        "Built a PyMuPDF ETL pipeline that turned a 121-page government fiscal white paper into 223 section-aware chunks and 42 relational tables in Neon PostgreSQL.",
+        "Shipped an MCP server (4 tools) for Claude Desktop/Cursor, a dual-LLM failover layer (Gemini -> GPT-4o-mini), and a Next.js 14 dashboard on Vercel; scored 95.6% precision on an automated eval suite of 30 benchmark test cases."
+      ]
+    },
+    {
+      "name": "Customer Churn Prediction with MLOps",
+      "period": "Jan 2026 - Mar 2026",
+      "tech_stack": [
+        "Docker",
+        "FastAPI",
+        "MLflow",
+        "Scikit-learn",
+        "Python"
+      ],
+      "highlights": [
+        "Built a production-ready ML pipeline for telecom churn prediction on 7,000+ real-world records - covering automated preprocessing, feature engineering, model training, and batch inference.",
+        "Evaluated multiple classifiers; Logistic Regression achieved ROC AUC 0.845 and F1 0.61, demonstrating principled model selection with proper metric-driven comparison.",
+        "Implemented MLflow for experiment tracking and model versioning to ensure reproducibility, and designed a modular, container-ready architecture for deployment using Docker and FastAPI."
+      ]
+    }
+  ],
+  "default_screening_answers": {
+    "notice_period": "30 days (negotiable)",
+    "current_location": "Bangalore, India",
+    "willing_to_relocate": "Yes",
+    "work_authorization": "Authorized to work in India (Citizen)",
+    "preferred_work_mode": "Hybrid / Remote / On-site"
+  }
+}

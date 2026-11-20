@@ -1,0 +1,26 @@
+Title: Generative AI & Agentic ML Engineer
+Company: InnovateAI Labs
+Location: Bangalore, Karnataka, India (Hybrid)
+Employment Type: Full-Time
+
+About the Role:
+We are looking for an ambitious Generative AI & ML Engineer with 1-3 years of experience to design and build our next-generation autonomous AI agents and enterprise RAG systems. You will work closely with our core engineering team to ship agentic reasoning systems, optimize latency, and implement robust MLOps practices.
+
+Key Responsibilities:
+- Design and deploy multi-agent workflows using LangGraph, LlamaIndex, or AutoGen.
+- Implement advanced RAG pipelines incorporating pgvector, vector databases, and semantic routing.
+- Integrate tool-calling protocols including Model Context Protocol (MCP) and REST APIs.
+- Package and deploy microservices with FastAPI and Docker on AWS or GCP.
+- Implement experiment tracking and model reproducibility using MLflow.
+- Collaborate with cross-functional teams to build document intelligence and structured data extraction pipelines.
+
+Qualifications:
+- Bachelor's degree in Computer Science, AI, Data Science, or related engineering discipline.
+- 1+ years of hands-on experience in Python, PyTorch, and modern ML/LLM frameworks.
+- Demonstrated experience with LangGraph, RAG architectures, and vector embeddings.
+- Proficiency in SQL, PostgreSQL, and containerization with Docker.
+- Experience with MLOps tools such as MLflow and CI/CD is a strong plus.
+
+How to Apply:
+Please email your resume and portfolio directly to careers@innovateailabs.com with the subject line "Application - GenAI & Agentic ML Engineer".
+

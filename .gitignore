@@ -221,3 +221,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# LinkedIn Job Copilot Generated Files & Credentials
+.env
+.env.local
+!.env.example
+generated_resumes/
