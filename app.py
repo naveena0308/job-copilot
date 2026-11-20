@@ -25,7 +25,14 @@ from core.matcher import match_job
 from core.resume_tailorer import tailor_resume_if_needed
 from core.mailer import draft_application_email, send_application_email
 from core.qa_generator import answer_screening_question, batch_answer_questions
-from core.outreach_generator import generate_connection_note, generate_inmail, generate_cover_letter
+from core.outreach_generator import (
+    generate_connection_note,
+    generate_inmail,
+    generate_cover_letter,
+    generate_referral_request,
+    generate_founder_pitch,
+    get_linkedin_people_search_url,
+)
 from core.tracker import load_tracker, add_application, update_status
 
 # Page setup
@@ -375,15 +382,40 @@ with tabs[3]:
             st.error(send_res.get("error"))
 
     st.markdown("---")
-    st.subheader("🔗 Additional LinkedIn Outreach Templates")
-    tab_note, tab_inmail, tab_cl = st.tabs(["Connection Note (≤300 chars)", "Recruiter InMail", "Cover Letter"])
+    st.subheader("🔗 LinkedIn Outreach & Referral Assistant")
+    
+    col_l1, col_l2 = st.columns(2)
+    with col_l1:
+        search_engineers_url = get_linkedin_people_search_url(outreach_comp, "AI Engineer OR Data Engineer")
+        st.markdown(f"👉 **[Search {outreach_comp} Engineers on LinkedIn]({search_engineers_url})**")
+    with col_l2:
+        search_hr_url = get_linkedin_people_search_url(outreach_comp, "Founder OR Talent Acquisition OR HR")
+        st.markdown(f"👉 **[Search {outreach_comp} Leadership & HR on LinkedIn]({search_hr_url})**")
+
+    contact_name_input = st.text_input("Target Contact's First Name (optional)", placeholder="e.g. Subra, Rahul, Priya")
+
+    tab_ref, tab_note, tab_founder, tab_inmail, tab_cl = st.tabs([
+        "🤝 Internal Referral Request",
+        "⚡ Connection Note (≤300 chars)",
+        "👔 Founder / CEO Pitch",
+        "✉️ Recruiter InMail",
+        "📄 Tailored Cover Letter"
+    ])
+    with tab_ref:
+        ref_text = generate_referral_request(outreach_comp, outreach_role, contact_name_input or None, "4RR955X7" if "Oxydata" in outreach_comp else None)
+        st.text_area("Referral Request Pitch (Copy & Send)", value=ref_text, height=220)
+        st.caption("Send this to engineers or tech leads at the company to request an internal referral.")
     with tab_note:
         c_note = generate_connection_note(outreach_comp, outreach_role)
-        st.text_area("LinkedIn Connection Note", value=c_note, height=100)
+        st.text_area("LinkedIn Connection Note (≤300 chars)", value=c_note, height=100)
         st.caption(f"Character count: {len(c_note)} / 300")
+    with tab_founder:
+        founder_text = generate_founder_pitch(outreach_comp, outreach_role, contact_name_input or "Subra")
+        st.text_area("Founder / Leadership Pitch", value=founder_text, height=200)
+        st.caption("Direct, value-focused pitch for founders and executives.")
     with tab_inmail:
-        inmail_text = generate_inmail(outreach_comp, outreach_role)
-        st.text_area("LinkedIn InMail Pitch", value=inmail_text, height=220)
+        inmail_text = generate_inmail(outreach_comp, outreach_role, contact_name_input or None)
+        st.text_area("LinkedIn InMail / Recruiter Message", value=inmail_text, height=220)
     with tab_cl:
         cover_text = generate_cover_letter(outreach_comp, outreach_role)
         st.text_area("Tailored Cover Letter", value=cover_text, height=280)
