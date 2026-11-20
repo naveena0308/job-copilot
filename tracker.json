@@ -167,5 +167,70 @@
     "url": "https://lnkd.in/p/gnWnsBbV",
     "created_at": "2026-11-20 18:22:30",
     "last_updated": "2026-11-20 18:22:30"
+  },
+  {
+    "id": 14,
+    "company": "Spritle Software",
+    "role": "Gen AI Developer",
+    "recipient_email": "jobs@spritle.com",
+    "ats_score": 68.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Spritle_Software_Gen_AI_Developer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai role. ATS Score: 68.0%.",
+    "url": "",
+    "created_at": "2026-11-20 23:42:39",
+    "last_updated": "2026-11-20 23:42:39"
+  },
+  {
+    "id": 15,
+    "company": "Bastion Data Solutions",
+    "role": "Applied AI Engineer",
+    "recipient_email": "support@bastiondatasolutions.com",
+    "ats_score": 76.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Bastion_Data_Solutions_Applied_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai (Teynampet) role. ATS Score: 76.3%.",
+    "url": "",
+    "created_at": "2026-11-20 23:42:43",
+    "last_updated": "2026-11-20 23:42:43"
+  },
+  {
+    "id": 16,
+    "company": "Eros Innovation",
+    "role": "AI Research Engineer",
+    "recipient_email": "careers@erosinvest.com",
+    "ats_score": 61.5,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Eros_Innovation_AI_Research_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai role. ATS Score: 61.5%.",
+    "url": "",
+    "created_at": "2026-11-20 23:42:47",
+    "last_updated": "2026-11-20 23:42:47"
+  },
+  {
+    "id": 17,
+    "company": "Evnek Technologies",
+    "role": "Junior Generative AI Engineer",
+    "recipient_email": "info@evnek.com",
+    "ats_score": 78.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Evnek_Technologies_Junior_Generative_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Bengaluru (Whitefield) role. ATS Score: 78.3%.",
+    "url": "",
+    "created_at": "2026-11-20 23:42:52",
+    "last_updated": "2026-11-20 23:42:52"
+  },
+  {
+    "id": 18,
+    "company": "Goavega Software",
+    "role": "Agentic AI & Generative AI Engineer",
+    "recipient_email": "careers@goavega.com",
+    "ats_score": 78.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Goavega_Software_Agentic_AI___Generative_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Bengaluru role. ATS Score: 78.3%.",
+    "url": "",
+    "created_at": "2026-11-20 23:42:56",
+    "last_updated": "2026-11-20 23:42:56"
   }
 ]
