@@ -11,5 +11,31 @@
     "url": "https://lnkd.in/p/ghA7cTJB",
     "created_at": "2026-11-20 15:23:04",
     "last_updated": "2026-11-20 15:23:04"
+  },
+  {
+    "id": 2,
+    "company": "kPatricii IT Services",
+    "role": "AI / Generative AI Engineer",
+    "recipient_email": "info@kpatricii.com",
+    "ats_score": 92.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_kPatricii_IT_Services_AI___Generative_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai GenAI role (LLMs, RAG, FastAPI).",
+    "url": "",
+    "created_at": "2026-11-20 16:31:48",
+    "last_updated": "2026-11-20 16:31:48"
+  },
+  {
+    "id": 3,
+    "company": "Ysquare Technology",
+    "role": "AI Engineer",
+    "recipient_email": "letstalk@ysquaretechnology.com",
+    "ats_score": 88.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Ysquare_Technology_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai office on-site AI Engineer role (Multi-Agent, LangGraph).",
+    "url": "",
+    "created_at": "2026-11-20 16:31:53",
+    "last_updated": "2026-11-20 16:31:53"
   }
 ]
