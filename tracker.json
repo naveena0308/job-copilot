@@ -50,5 +50,44 @@
     "url": "",
     "created_at": "2026-11-20 16:33:51",
     "last_updated": "2026-11-20 16:33:51"
+  },
+  {
+    "id": 5,
+    "company": "HBSPL",
+    "role": "AI / GenAI Engineer",
+    "recipient_email": "info@hbspl.in",
+    "ats_score": 91.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_HBSPL_AI___GenAI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied for Chennai/Bangalore hybrid AI Engineer role (0-2 yrs).",
+    "url": "",
+    "created_at": "2026-11-20 16:37:08",
+    "last_updated": "2026-11-20 16:37:08"
+  },
+  {
+    "id": 6,
+    "company": "Omozing",
+    "role": "Software / AI Engineer",
+    "recipient_email": "careers@omozing.com",
+    "ats_score": 93.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Omozing_Software___AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied for Bengaluru fintech AI & agents role with FinSight AI highlights.",
+    "url": "",
+    "created_at": "2026-11-20 16:37:13",
+    "last_updated": "2026-11-20 16:37:13"
+  },
+  {
+    "id": 7,
+    "company": "Fluid AI",
+    "role": "Agentic AI Engineer",
+    "recipient_email": "careers@fluid.ai",
+    "ats_score": 95.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Fluid_AI_Agentic_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied for enterprise Agentic AI role with LangGraph, MCP, and AutoGen highlights.",
+    "url": "",
+    "created_at": "2026-11-20 16:37:17",
+    "last_updated": "2026-11-20 16:37:17"
   }
 ]
