@@ -115,5 +115,18 @@
     "url": "https://oxy.careers-page.com/jobs/9426b47b-8246-40a9-96ac-115db642ccad/apply",
     "created_at": "2026-11-20 16:50:09",
     "last_updated": "2026-11-20 16:50:09"
+  },
+  {
+    "id": 10,
+    "company": "Experis (ManpowerGroup)",
+    "role": "AI Engineer (2025 Batch)",
+    "recipient_email": "nistha.srivastava@in.experis.com",
+    "ats_score": 95.0,
+    "tailored_resume_path": "generated_resumes\\Naveena_Resume_Experis_India_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to Nistha Arun Srivastava LinkedIn post for 2025 batch AI Engineer (Chennai/Bangalore).",
+    "url": "https://lnkd.in/p/g28i7V4X",
+    "created_at": "2026-11-20 17:37:19",
+    "last_updated": "2026-11-20 17:37:19"
   }
 ]
