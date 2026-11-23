@@ -232,5 +232,70 @@
     "url": "",
     "created_at": "2026-11-20 23:42:56",
     "last_updated": "2026-11-20 23:42:56"
+  },
+  {
+    "id": 19,
+    "company": "LatentView Analytics",
+    "role": "GenAI / Applied AI Engineer",
+    "recipient_email": "tag@latentview.com",
+    "ats_score": 72.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_LatentView_Analytics_GenAI___Applied_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Taramani, Chennai role. ATS Score: 72.3%.",
+    "url": "",
+    "created_at": "2026-11-23 13:35:30",
+    "last_updated": "2026-11-23 13:35:30"
+  },
+  {
+    "id": 20,
+    "company": "Clock Edge Technologies",
+    "role": "Agentic AI Engineer",
+    "recipient_email": "info@clkedge.com",
+    "ats_score": 72.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Clock_Edge_Technologies_Agentic_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai / Bangalore role. ATS Score: 72.3%.",
+    "url": "",
+    "created_at": "2026-11-23 13:35:36",
+    "last_updated": "2026-11-23 13:35:36"
+  },
+  {
+    "id": 21,
+    "company": "Aptlogica Technologies",
+    "role": "Agentic AI Developer",
+    "recipient_email": "connect@aptlogica.com",
+    "ats_score": 72.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Aptlogica_Technologies_Agentic_AI_Developer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Chennai / Hybrid role. ATS Score: 72.3%.",
+    "url": "",
+    "created_at": "2026-11-23 13:35:41",
+    "last_updated": "2026-11-23 13:35:41"
+  },
+  {
+    "id": 22,
+    "company": "Circular Carbon Technologies",
+    "role": "AI Engineer",
+    "recipient_email": "reachus@circularctech.com",
+    "ats_score": 81.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Circular_Carbon_Technologies_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Anna Salai, Chennai role. ATS Score: 81.0%.",
+    "url": "",
+    "created_at": "2026-11-23 13:35:47",
+    "last_updated": "2026-11-23 13:35:47"
+  },
+  {
+    "id": 23,
+    "company": "CDTECH Innovations",
+    "role": "Software AI Agent / Engineer",
+    "recipient_email": "hr@cdtech.in",
+    "ats_score": 61.5,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_CDTECH_Innovations_Software_AI_Agent___Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Emailed tailored resume for Egmore, Chennai role. ATS Score: 61.5%.",
+    "url": "",
+    "created_at": "2026-11-23 13:35:53",
+    "last_updated": "2026-11-23 13:35:53"
   }
 ]
