@@ -375,5 +375,18 @@
     "url": "",
     "created_at": "2026-11-23 16:59:38",
     "last_updated": "2026-11-23 16:59:38"
+  },
+  {
+    "id": 30,
+    "company": "SMART VISIONS",
+    "role": "Remote AI Engineer",
+    "recipient_email": "manager@connect.smartvisionsai.com",
+    "ats_score": 81.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_SMART_VISIONS_Remote_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to Hamed Minaei LinkedIn post for SMART VISIONS Remote AI Engineer ($350-$500/week). Tailored resume attached. ATS Score: 81.0%.",
+    "url": "https://www.linkedin.com/posts/hamed-minaei-3b0b58441_hiring-remotejobs-aiengineer-share-7528065584908103680-oeDN",
+    "created_at": "2026-11-24 13:35:36",
+    "last_updated": "2026-11-24 13:35:36"
   }
 ]
