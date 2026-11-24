@@ -388,5 +388,70 @@
     "url": "https://www.linkedin.com/posts/hamed-minaei-3b0b58441_hiring-remotejobs-aiengineer-share-7528065584908103680-oeDN",
     "created_at": "2026-11-24 13:35:36",
     "last_updated": "2026-11-24 13:35:36"
+  },
+  {
+    "id": 31,
+    "company": "PraviHR (Agentic AI Client)",
+    "role": "GenAI Engineer - Agentic Systems",
+    "recipient_email": "sadaf.fatima@pravihr.com",
+    "ats_score": 69.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_PraviHR__Agentic_AI_Client_GenAI_Engineer_-_Agentic_Systems.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for PraviHR (Agentic AI Client) (Chennai). ATS Score: 69.3%. Post URL: https://www.linkedin.com/posts/sadaf-fatima-7746618a_hiring-genai-agenticai-share-7511338896333651968-Lz1m.",
+    "url": "https://www.linkedin.com/posts/sadaf-fatima-7746618a_hiring-genai-agenticai-share-7511338896333651968-Lz1m",
+    "created_at": "2026-11-24 14:18:11",
+    "last_updated": "2026-11-24 14:20:42"
+  },
+  {
+    "id": 32,
+    "company": "ClanX.ai",
+    "role": "AI Engineer (Python | Agent Loops & Tool Calling)",
+    "recipient_email": "info@clanx.ai",
+    "ats_score": 77.8,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_ClanX_ai_AI_Engineer__Python___Agent_Loops___Tool_Calling.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for ClanX.ai (Bengaluru). ATS Score: 77.8%. Post URL: https://jobs.clanx.ai/o/backend-engineer-python-sde2-bengaluru?source=mlp.",
+    "url": "https://jobs.clanx.ai/o/backend-engineer-python-sde2-bengaluru?source=mlp",
+    "created_at": "2026-11-24 14:18:15",
+    "last_updated": "2026-11-24 14:20:47"
+  },
+  {
+    "id": 33,
+    "company": "Covenant India",
+    "role": "GenAI & Automation Engineer",
+    "recipient_email": "emil@covenantindia.net",
+    "ats_score": 68.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Covenant_India_GenAI___Automation_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for Covenant India (Chennai). ATS Score: 68.0%. Post URL: https://www.linkedin.com/posts/andrewjohn1_hiring-genai-chennai-activity-7488899893101518848-yy53.",
+    "url": "https://www.linkedin.com/posts/andrewjohn1_hiring-genai-chennai-activity-7488899893101518848-yy53",
+    "created_at": "2026-11-24 14:18:20",
+    "last_updated": "2026-11-24 14:18:20"
+  },
+  {
+    "id": 34,
+    "company": "Experis India",
+    "role": "AI Engineer (Early Career / AI & ML)",
+    "recipient_email": "md.zeeshan@in.experis.com",
+    "ats_score": 94.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Experis_India_AI_Engineer__Early_Career___AI___ML.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for Experis India (Chennai / Bangalore). ATS Score: 94.0%. Post URL: https://www.linkedin.com/posts/md-zeeshan-mohammed-zeeshan-qureshi-kareemi-3a6681aa_hiring-freshershiring-aiengineer-share-7528696819820687361-WrTa.",
+    "url": "https://www.linkedin.com/posts/md-zeeshan-mohammed-zeeshan-qureshi-kareemi-3a6681aa_hiring-freshershiring-aiengineer-share-7528696819820687361-WrTa",
+    "created_at": "2026-11-24 14:18:24",
+    "last_updated": "2026-11-24 14:18:24"
+  },
+  {
+    "id": 35,
+    "company": "Orion Innovation",
+    "role": "GenAI Engineer (Agentic AI & LLMs)",
+    "recipient_email": "careers@orioninc.com",
+    "ats_score": 81.0,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Orion_Innovation_GenAI_Engineer__Agentic_AI___LLMs.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for Orion Innovation (Kandanchavadi, OMR, Chennai). ATS Score: 81.0%. Post URL: https://www.linkedin.com/posts/orioninnovation_hiring-genai-agenticai-activity-7514165249743167488-xNWQ.",
+    "url": "https://www.linkedin.com/posts/orioninnovation_hiring-genai-agenticai-activity-7514165249743167488-xNWQ",
+    "created_at": "2026-11-24 14:18:28",
+    "last_updated": "2026-11-24 14:18:28"
   }
 ]

@@ -372,5 +372,65 @@
     "contact": "https://www.sarvam.ai/careers",
     "status": "Ready to Submit",
     "notes": "Leading Indian foundation model startup building voice & agent ecosystems."
+  },
+  {
+    "id": "job-35",
+    "role": "GenAI Engineer - Agentic Systems",
+    "company": "PraviHR (Agentic AI Client)",
+    "location": "Chennai / Bengaluru",
+    "source": "LinkedIn Direct Post",
+    "contact_email": null,
+    "ats_score": 69.3,
+    "url": "https://www.linkedin.com/posts/sadaf-fatima-7746618a_hiring-genai-agenticai-share-7511338896333651968-Lz1m",
+    "applied": true,
+    "status": "Emailed"
+  },
+  {
+    "id": "job-36",
+    "role": "AI Engineer (Python | Agent Loops & Tool Calling)",
+    "company": "ClanX.ai",
+    "location": "Chennai / Bengaluru",
+    "source": "LinkedIn Direct Post",
+    "contact_email": null,
+    "ats_score": 77.8,
+    "url": "https://jobs.clanx.ai/o/backend-engineer-python-sde2-bengaluru?source=mlp",
+    "applied": true,
+    "status": "Emailed"
+  },
+  {
+    "id": "job-37",
+    "role": "GenAI & Automation Engineer",
+    "company": "Covenant India",
+    "location": "Chennai / Bengaluru",
+    "source": "LinkedIn Direct Post",
+    "contact_email": null,
+    "ats_score": 68.0,
+    "url": "https://www.linkedin.com/posts/andrewjohn1_hiring-genai-chennai-activity-7488899893101518848-yy53",
+    "applied": true,
+    "status": "Emailed"
+  },
+  {
+    "id": "job-38",
+    "role": "AI Engineer (Early Career / AI & ML)",
+    "company": "Experis India",
+    "location": "Chennai / Bengaluru",
+    "source": "LinkedIn Direct Post",
+    "contact_email": null,
+    "ats_score": 94.0,
+    "url": "https://www.linkedin.com/posts/md-zeeshan-mohammed-zeeshan-qureshi-kareemi-3a6681aa_hiring-freshershiring-aiengineer-share-7528696819820687361-WrTa",
+    "applied": true,
+    "status": "Emailed"
+  },
+  {
+    "id": "job-39",
+    "role": "GenAI Engineer (Agentic AI & LLMs)",
+    "company": "Orion Innovation",
+    "location": "Chennai / Bengaluru",
+    "source": "LinkedIn Direct Post",
+    "contact_email": null,
+    "ats_score": 81.0,
+    "url": "https://www.linkedin.com/posts/orioninnovation_hiring-genai-agenticai-activity-7514165249743167488-xNWQ",
+    "applied": true,
+    "status": "Emailed"
   }
 ]
