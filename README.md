@@ -2,7 +2,7 @@
 
 An intelligent, end-to-end automation copilot built for **Naveena N** (AI/ML & Generative AI Engineer) to:
 1. **Discover LinkedIn Hiring Posts with Recruiter Emails:** Live search for posts where recruiters/founders post job openings and request email applications.
-2. **ATS Fit & Gap Analysis:** Calculate match score (0-100%), skill overlaps, missing keywords, and experience alignment.
+2. **ATS Fit & Gap Analysis (80% Strict Quality Gate):** Calculate match score (0-100%), skill overlaps, missing keywords, and experience alignment. If the ATS score is < 80%, the copilot pauses auto-dispatch and prompts the user for missing skills to enrich `profile.json` before sending.
 3. **Smart Resume Tailoring (Only When Needed):** Evaluates if the JD requires customization; if so, re-aligns the objective statement, reorganizes skills by relevance, and compiles a clean, ATS-optimized PDF resume using ReportLab.
 4. **Automated Gmail Outreach:** Drafts and dispatches personalized, high-converting application emails through your Gmail account with the resume attached (with Dry-Run safety mode).
 5. **Easy Apply Screening Q&A Auto-Filler:** Answers screening questions instantly (experience with specific frameworks, notice period, location, citizenship, education).

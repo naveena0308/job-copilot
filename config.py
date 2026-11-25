@@ -77,11 +77,15 @@ TECH_SKILLS_TAXONOMY = {
     ]
 }
 
-# Scoring Weights
+# Scoring Weights & Application Thresholds
 SCORING_WEIGHTS = {
     "required_skills": 0.50,
     "role_relevance": 0.20,
     "experience_fit": 0.15,
     "preferred_skills": 0.15,
 }
+
+# Strict User Policy: If ATS score < 80.0%, ask candidate about missing skills before applying
+ATS_THRESHOLD_AUTO_APPLY = 80.0
+
 
