@@ -432,5 +432,29 @@
     "url": "https://www.linkedin.com/posts/orioninnovation_hiring-genai-agenticai-activity-7514165249743167488-xNWQ",
     "applied": true,
     "status": "Emailed"
+  },
+  {
+    "id": "job-40",
+    "role": "Python + AI/ML Developer",
+    "company": "AiBridze Technologies",
+    "location": "100% Remote (India)",
+    "source": "LinkedIn Direct Post",
+    "contact_email": "careers@aibridze.com",
+    "ats_score": 69.3,
+    "url": "https://lnkd.in/p/ggCd7iZJ",
+    "applied": true,
+    "status": "Emailed"
+  },
+  {
+    "id": "job-41",
+    "role": "AI Engineer",
+    "company": "Techwave",
+    "location": "Hyderabad / Bengaluru / Hybrid",
+    "source": "LinkedIn Direct Post",
+    "contact_email": "prasannakumar.manda@techwave.com",
+    "ats_score": 61.5,
+    "url": "https://lnkd.in/p/gQszxwsX",
+    "applied": true,
+    "status": "Emailed"
   }
 ]

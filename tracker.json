@@ -453,5 +453,31 @@
     "url": "https://www.linkedin.com/posts/orioninnovation_hiring-genai-agenticai-activity-7514165249743167488-xNWQ",
     "created_at": "2026-11-24 14:18:28",
     "last_updated": "2026-11-24 14:18:28"
+  },
+  {
+    "id": 36,
+    "company": "AiBridze Technologies",
+    "role": "Python + AI/ML Developer",
+    "recipient_email": "careers@aibridze.com",
+    "ats_score": 69.3,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_AiBridze_Technologies_Python___AI_ML_Developer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for AiBridze Technologies (100% Remote (India)). ATS Score: 69.3%. Post URL: https://lnkd.in/p/ggCd7iZJ.",
+    "url": "https://lnkd.in/p/ggCd7iZJ",
+    "created_at": "2026-11-25 17:25:07",
+    "last_updated": "2026-11-25 17:25:07"
+  },
+  {
+    "id": 37,
+    "company": "Techwave",
+    "role": "AI Engineer",
+    "recipient_email": "prasannakumar.manda@techwave.com",
+    "ats_score": 61.5,
+    "tailored_resume_path": "D:\\Naveena Natarajan\\Personal\\linkedin-job-copilot\\generated_resumes\\Naveena_Resume_Techwave_AI_Engineer.pdf",
+    "status": "Emailed",
+    "notes": "Applied to LinkedIn hiring post for Techwave (Hyderabad / Bengaluru / Hybrid). ATS Score: 61.5%. Post URL: https://lnkd.in/p/gQszxwsX.",
+    "url": "https://lnkd.in/p/gQszxwsX",
+    "created_at": "2026-11-25 17:25:11",
+    "last_updated": "2026-11-25 17:25:11"
   }
 ]
