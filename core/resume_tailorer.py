@@ -139,6 +139,8 @@ def build_pdf_resume(
         contact_parts.append(f'<a href="{profile["linkedin"]}">LinkedIn</a>')
     if profile.get("github"):
         contact_parts.append(f'<a href="{profile["github"]}">GitHub</a>')
+    if profile.get("portfolio"):
+        contact_parts.append(f'<a href="{profile["portfolio"]}">Portfolio</a>')
 
     story.append(Paragraph(" &nbsp;&bull;&nbsp; ".join(contact_parts), contact_style))
 
