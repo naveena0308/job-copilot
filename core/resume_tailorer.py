@@ -174,7 +174,7 @@ def build_pdf_resume(
     # 5. Experience
     add_section_divider("EXPERIENCE")
     for exp in profile.get("experience", []):
-        header_text = f"<b>{exp.get('role')}</b> &mdash; <i>{exp.get('company')}, {exp.get('location')}</i> <font color='#555555'>({exp.get('period')})</font>"
+        header_text = f"<b>{exp.get('role')}</b> | <i>{exp.get('company')}, {exp.get('location')}</i> <font color='#555555'>({exp.get('period')})</font>"
         story.append(Paragraph(header_text, body_style))
         story.append(Spacer(1, 2))
         for hl in exp.get("highlights", []):
@@ -185,7 +185,7 @@ def build_pdf_resume(
     add_section_divider("PROJECTS")
     for proj in profile.get("projects", []):
         tech_str = ", ".join(proj.get("tech_stack", []))
-        proj_hdr = f"<b>{proj.get('name')}</b> <font color='#555555'>({proj.get('period')})</font> &mdash; <i>[{tech_str}]</i>"
+        proj_hdr = f"<b>{proj.get('name')}</b> <font color='#555555'>({proj.get('period')})</font> | <i>[{tech_str}]</i>"
         story.append(Paragraph(proj_hdr, body_style))
         story.append(Spacer(1, 2))
         for hl in proj.get("highlights", []):
